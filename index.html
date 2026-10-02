@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allied Auxilium Education | Learn the law. Build the future.</title>
+<meta name="description" content="Practical, market-aligned legal education from Allied Auxilium Education, part of THE SERVICES TREE. From classroom to career to practice.">
+<style>
+  :root {
+    --ink: #14213d;
+    --ink-soft: #4a5568;
+    --bg: #fbfaf6;
+    --card: #ffffff;
+    --accent: #1f6f50;
+    --accent-dark: #14503a;
+    --gold: #b8892b;
+    --line: #e4e0d4;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+  }
+  h1, h2, h3, .sans, nav, .btn, .eyebrow {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
+  header.site {
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+    position: sticky; top: 0; z-index: 10;
+  }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { font-weight: 700; letter-spacing: .01em; color: var(--ink); text-decoration: none; font-family: -apple-system, "Segoe UI", sans-serif; }
+  .brand small { display: block; font-weight: 500; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  nav a { margin-left: 22px; color: var(--ink-soft); text-decoration: none; font-size: 15px; }
+  nav a:hover { color: var(--accent); }
+  .hero { padding: 88px 0 72px; background: linear-gradient(180deg, #f1efe3 0%, var(--bg) 100%); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 700; color: var(--gold); margin: 0 0 14px; }
+  h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.1; margin: 0 0 20px; max-width: 16ch; }
+  .lead { font-size: 20px; max-width: 62ch; color: var(--ink-soft); }
+  .btn {
+    display: inline-block; padding: 13px 24px; border-radius: 6px; font-weight: 600; font-size: 15px;
+    text-decoration: none; background: var(--accent); color: #fff; margin: 22px 12px 0 0;
+  }
+  .btn:hover { background: var(--accent-dark); }
+  .btn.ghost { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+  .btn.ghost:hover { background: var(--accent); color: #fff; }
+  section { padding: 68px 0; }
+  section.alt { background: #f4f2e8; }
+  h2 { font-size: clamp(26px, 4vw, 36px); margin: 0 0 14px; line-height: 1.2; }
+  .sub { color: var(--ink-soft); max-width: 66ch; margin: 0 0 8px; }
+  .grid { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 26px; }
+  .card h3 { margin: 0 0 4px; font-size: 20px; }
+  .card .tag { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; color: var(--accent); margin: 0 0 12px; display: block; }
+  .card p { margin: 0; font-size: 16px; color: var(--ink-soft); }
+  .stats { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 28px; }
+  .stat { border-left: 3px solid var(--gold); padding: 4px 0 4px 18px; }
+  .stat strong { display: block; font-family: -apple-system, "Segoe UI", sans-serif; font-size: 40px; line-height: 1; color: var(--ink); }
+  .stat span { color: var(--ink-soft); font-size: 15px; }
+  .tree { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; padding: 0; list-style: none; }
+  .tree li { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; color: var(--ink); }
+  .tree li.root { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; }
+  .cta { text-align: center; background: var(--ink); color: #fff; }
+  .cta h2 { color: #fff; }
+  .cta p { color: #cfd6e4; max-width: 56ch; margin: 0 auto 6px; }
+  .cta .btn { background: var(--gold); color: #14213d; }
+  footer { padding: 30px 0; font-size: 14px; color: var(--ink-soft); font-family: -apple-system, "Segoe UI", sans-serif; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
+  @media (max-width: 640px) { nav { display: none; } .hero { padding: 56px 0 48px; } }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">Allied Auxilium Education<small>Part of THE SERVICES TREE</small></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#students">Students</a>
+      <a href="#lawyers">Lawyers</a>
+      <a href="#partners">Partners</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow">From classroom to career to practice</p>
+      <h1>Learn the law. Build the future.</h1>
+      <p class="lead">Law is changing quickly, but legal education hasn't kept up. At Allied Auxilium Education, part of THE SERVICES TREE, we're closing that gap. We prepare students, professionals and our associates for the legal market of the future, with practical, market-aligned learning that goes beyond the traditional syllabus.</p>
+      <p class="lead">Our goal is simple: graduates who are ready for the work that's actually out there.</p>
+      <a class="btn" href="#contact">Start the conversation</a>
+      <a class="btn ghost" href="#about">About us</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About Allied Auxilium Education</h2>
+      <p class="sub">The legal profession is changing faster than the classroom. Technology, new regulation, cross-border business, and evolving client expectations are reshaping what it means to be a lawyer, yet education alone is rarely enough to succeed in this market.</p>
+      <p class="sub">That is why Allied Auxilium Education is part of THE SERVICES TREE, an integrated platform offering Marketing, Funding and Financing, Accounting, Administrative Support, Management Services, Information Technology and AI Training and Consultation, and Human Resources. We bring legal education in line with the needs of future markets, and we connect it to the practical support that turns knowledge into careers, practices, and institutions that last.</p>
+      <p class="sub"><em>Auxilium</em> means "help" or "support." Across education and every service on the platform, that is our promise.</p>
+
+      <div class="stats">
+        <div class="stat"><strong>40 years</strong><span>of teaching experience</span></div>
+        <div class="stat"><strong>50 years</strong><span>of legal expertise</span></div>
+      </div>
+
+      <ul class="tree" aria-label="THE SERVICES TREE">
+        <li class="root">Allied Auxilium Education</li>
+        <li>Marketing</li>
+        <li>Funding &amp; Financing</li>
+        <li>Accounting</li>
+        <li>Administrative Support</li>
+        <li>Management Services</li>
+        <li>IT &amp; AI Training and Consultation</li>
+        <li>Human Resources</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>One platform. Three ways we help.</h2>
+      <div class="grid">
+        <article class="card" id="students">
+          <h3>Law students</h3>
+          <span class="tag">Graduate ready to work, and know where to go next.</span>
+          <p>Law school awards a degree. The market asks for more. Allied Auxilium Education builds the practical, tech-fluent skills employers look for, including AI and IT training for modern legal work. And because we're part of THE SERVICES TREE, your learning connects to the wider world of work: career readiness through our Human Resources network, and the know-how to one day start your own practice.</p>
+        </article>
+        <article class="card" id="lawyers">
+          <h3>Working lawyers</h3>
+          <span class="tag">Sharpen your skills. Strengthen your practice.</span>
+          <p>You already know the law. Running a successful practice takes more. Allied Auxilium Education offers focused learning to keep you current, and THE SERVICES TREE stands behind it with support for the business side: marketing to win clients, accounting to keep finances clear, administrative and management support to free your time, funding and financing guidance to grow, and IT and AI consultation to modernize how you work.</p>
+        </article>
+        <article class="card" id="partners">
+          <h3>Institutional partners</h3>
+          <span class="tag">One partner for education and the infrastructure around it.</span>
+          <p>Universities, law firms, bar bodies, and corporate legal teams rarely face a purely educational challenge. Allied Auxilium Education brings market-aligned legal training, and through THE SERVICES TREE can extend into talent and HR solutions, AI and technology adoption, management services, and operational support. One relationship, joined-up solutions, built around real industry demand.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Working with institutions</h2>
+      <p class="sub">Allied Auxilium Education works with institutions to bring legal training in line with future market needs. As part of THE SERVICES TREE, we combine educational expertise with the strength of a wider service group, offering partners programs that are relevant, practical, and built around real industry demand. Together, we can prepare graduates and professionals for the work that actually exists.</p>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap">
+      <h2>We don't just train legal professionals. We help them launch, run, and grow.</h2>
+      <p>Tell us whether you're a student, a practising lawyer, or an institution, and we'll show you where to start.</p>
+      <a class="btn" href="mailto:info@example.com">Get in touch</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Allied Auxilium Education, part of THE SERVICES TREE.</span>
+    <span>Learn the law. Build the future.</span>
+  </div>
+</footer>
+
+</body>
+</html>
